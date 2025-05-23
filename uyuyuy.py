@@ -9,13 +9,14 @@ while True:
         b = int(input("второе число: "))
         if ty == 'деление':
             ptint(dele(a, b))
-            else: break
         elif ty == 'умножение':
             print(umnog(a, b))
         elif ty == 'сложение':
             print(lonsh(a,b))
         elif ty == 'вычетание':
             print(vasut(a, b))
+    else:
+        break
 
 
 
