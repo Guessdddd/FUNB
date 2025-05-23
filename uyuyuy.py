@@ -5,7 +5,6 @@ print('Привет')
 while True:
     ty = input("введи операцию(деление,умножения,сложение,вычетания)")
     if ty != 'стоп'
-        break
         a = int(input("первое число: "))
         b = int(input("второе число: "))
         if ty == 'деление':
@@ -16,5 +15,6 @@ while True:
             print(lonsh(a,b))
         elif ty == 'вычетание':
             print(vasut(a, b))
+            break
 
 
